@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f8f8ff;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .player-container {
+    background: #afeeb9;
+    border-radius: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+  }
+  
+  .dice img {
+    width: 50px; 
+    height: 50px;
+  }
+  
+  .numbers {
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .roll-btn {
+    background: #a9be2c;
+    border: none;
+    padding: 10px 15px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+  }
+  
+  .roll-btn:hover {
+    background: #df374557;
+  }
+  
+  .total-score {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
